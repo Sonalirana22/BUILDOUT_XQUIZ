@@ -23,6 +23,7 @@ public class App {
         choices2.add("Canada");
         choices2.add("Denmark");
         choices2.add("USA");
+        //System.out.println("Question text cannot be null or empty!");
         Question second = new Question(text2, choices2, "Canada");
         quiz1.addQuestion(second);
 
